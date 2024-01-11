@@ -1,0 +1,16 @@
+App(
+    appid="luckynumbers",
+    name="Lucky Numbers",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="luckynumbersapp",
+    requires=[
+        "gui",
+    ],
+    fap_category="Tools",
+    fap_icon="icons/luckynumbers_icon.png",
+    fap_icon_assets="icons",
+    fap_author="@NobleLip",
+    fap_weburl="https://github.com/NobleLip",
+    fap_version="0.1",
+    fap_description="Used to generate numbers to use on Euromilhoes",
+)
